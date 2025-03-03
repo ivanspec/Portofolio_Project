@@ -3,6 +3,7 @@ import { defineConfig } from 'cypress';
 export default defineConfig({
   viewportWidth: 1920,
   viewportHeight: 1080,
+  retries: 2,
   reporter: 'mochawesome',
   reporterOptions: {
     overwrite: false,
