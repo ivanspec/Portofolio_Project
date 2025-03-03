@@ -11,5 +11,23 @@ export class LoginPage {
         cy.get('h5').should('contain', 'New to Amazon?')
         cy.get('#createAccountSubmit').should('contain', 'Create your Amazon account')
     }
-    
+    fillUsername(username: string){
+        cy.get('#ap_email').type(username);
+    }
+    clickContinueBtn(){
+        cy.get('.a-button-inner > #continue').click();
+    }
+    fillPassword(password: string){
+        cy.get('#ap_password').type(password);
+    }
+    assertPasswordPage(){
+        cy.get('.a-padding-extra-large > .a-spacing-small').should('contain', 'Sign in')
+        cy.get('#auth-email-claim').should('contain', Cypress.env("username"));
+    }
+    clickSignInBtn(){
+        cy.get('#signInSubmit').click();
+    }
+    successFullLogin(){
+        cy.get('#nav-logo-sprites').should('be.visible');
+    }
 }

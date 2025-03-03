@@ -1,6 +1,8 @@
 import { defineConfig } from 'cypress';
 
-module.exports = defineConfig({
+export default defineConfig({
+  viewportWidth: 1920,
+  viewportHeight: 1080,
   reporter: 'mochawesome',
   reporterOptions: {
     overwrite: false,
