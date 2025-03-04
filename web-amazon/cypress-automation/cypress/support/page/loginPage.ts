@@ -31,7 +31,7 @@ export class LoginPage {
         cy.get('#nav-logo-sprites').should('be.visible');
     }
     assertAllertWrongPwd(){
-        cy.get('#auth-error-message-box > .a-box-inner > .a-alert-heading').should('contain',' There was a problem')
+        cy.get('#auth-error-message-box > .a-box-inner > .a-alert-heading').should('contain','There was a problem')
         cy.get('#auth-error-message-box > .a-box-inner > .a-alert-content').should('contain','Your password is incorrect')
     }
     assertAllertWrongUsername(){

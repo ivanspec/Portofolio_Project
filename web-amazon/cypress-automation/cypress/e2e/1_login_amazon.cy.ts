@@ -15,7 +15,7 @@ describe('Login Amazon', () => {
     loginUI.clickSignInBtn();
   });
 
-  it('2-AZ: user fill wrong password and got error', () => {
+  it.only('2-AZ: user fill wrong password and got error', () => {
     cy.visit('/');
     loginUI.clickloginBtn();
     loginUI.assertLoginPage();
