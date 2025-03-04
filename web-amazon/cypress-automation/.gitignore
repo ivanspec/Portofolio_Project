@@ -1,0 +1,13 @@
+node_modules/
+bower_components/
+*.log
+
+build/
+dist/
+
+cypress/videos/*
+cypress\videos\*
+cypress/screenshots/*
+cypress\screenshots\*
+reports/
+cypress.env.json
