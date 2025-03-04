@@ -11,7 +11,7 @@ const resultInRow = 1;
 describe('User can add and delete item to card without login', () => {
   it('4-AZ: user add item to cart without login', () => {
     cy.visit('/');
-
+    cy.reload();
     // page home
     homeUI.skipAlertCountry();
     cy.wait(2000); // waiting allert is show
@@ -32,7 +32,7 @@ describe('User can add and delete item to card without login', () => {
 
   it('5-AZ: user can delete item in cart without login', () => {
     cy.visit('/');
-
+    cy.reload();
     // page home
     homeUI.skipAlertCountry();
     cy.wait(2000); // waiting allert is show
