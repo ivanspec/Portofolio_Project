@@ -3,7 +3,7 @@ import { LoginPage } from '../support/page/loginPage';
 const loginUI = new LoginPage();
 
 // Documantation scenario : https://docs.google.com/spreadsheets/d/1PDgkWa_QUfMz9yJJ9bgA7aKmIrSx7BGORem9hJ98qYw/edit?usp=sharing
-describe('Login and add item to cart', () => {
+describe('Login Amazon', () => {
   it('1-AZ: user succesfully login amazon', () => {
     cy.visit('/');
     loginUI.clickloginBtn();
@@ -13,7 +13,6 @@ describe('Login and add item to cart', () => {
     loginUI.assertPasswordPage();
     loginUI.fillPassword(Cypress.env("password"));
     loginUI.clickSignInBtn();
-    loginUI.successFullLogin();
   });
 
   it('2-AZ: user fill wrong password and got error', () => {

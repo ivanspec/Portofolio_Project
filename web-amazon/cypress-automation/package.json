@@ -27,7 +27,7 @@
     "lint": "eslint ./cypress/e2e/*.ts",
     "format": "prettier . --write",
     "open": "cypress open",
-    "test": "cypress run",
+    "test": "cypress run --browser=chrome",
     "report": "mochawesome-merge ./reports/*.json > ./report.json && marge report.json --reportDir ./reports && rimraf report.json"
   }
 }

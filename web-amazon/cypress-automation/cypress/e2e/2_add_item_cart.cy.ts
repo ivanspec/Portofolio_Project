@@ -8,7 +8,7 @@ const resultUI = new ListItemPage();
 const mouseName = 'Razer Basilisk V3';
 const resultInRow = 1
 
-describe('User can add and delete item to card without login¡™£', () => {
+describe('User can add and delete item to card without login', () => {
     it('4-AZ: user add item to cart without login', () => {
       cy.visit('/');
 

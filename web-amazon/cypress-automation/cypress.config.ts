@@ -13,7 +13,7 @@ export default defineConfig({
   },
   videoCompression: false,
   video: true,
-  defaultCommandTimeout: 30000,
+  defaultCommandTimeout: 15000,
   e2e: {
     baseUrl: 'https://www.amazon.com/',
     watchForFileChanges: false,
