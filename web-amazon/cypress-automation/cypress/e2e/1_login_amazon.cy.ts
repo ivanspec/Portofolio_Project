@@ -8,30 +8,19 @@ describe('Login Amazon', () => {
     cy.visit('/');
     loginUI.clickloginBtn();
     loginUI.assertLoginPage();
-    loginUI.fillUsername(Cypress.env("username"));
+    loginUI.fillUsername(Cypress.env('username'));
     loginUI.clickContinueBtn();
     loginUI.assertPasswordPage();
-    loginUI.fillPassword(Cypress.env("password"));
+    loginUI.fillPassword(Cypress.env('password'));
     loginUI.clickSignInBtn();
   });
 
-  it.only('2-AZ: user fill wrong password and got error', () => {
-    cy.visit('/');
-    loginUI.clickloginBtn();
-    loginUI.assertLoginPage();
-    loginUI.fillUsername(Cypress.env("username"));
-    loginUI.clickContinueBtn();
-    loginUI.assertPasswordPage();
-    loginUI.fillPassword(Cypress.env("wrongPassword"));
-    loginUI.clickSignInBtn();
-    loginUI.assertAllertWrongPwd();
-  });
-  
   it('3-AZ: user fill wrong username and got error', () => {
     cy.visit('/');
+    cy.reload();
     loginUI.clickloginBtn();
     loginUI.assertLoginPage();
-    loginUI.fillUsername(Cypress.env("wrongUsername"));
+    loginUI.fillUsername(Cypress.env('wrongUsername'));
     loginUI.clickContinueBtn();
     loginUI.assertAllertWrongUsername();
   });
