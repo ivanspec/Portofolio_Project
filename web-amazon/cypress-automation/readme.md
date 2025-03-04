@@ -36,7 +36,7 @@
   ```
 
 ### Example Success Run 
-- 
+  ![Description of Image](result.png)
 
 ### Report
 - Path report :  'web-amazon/cypress-automation/reports'
