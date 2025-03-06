@@ -1,0 +1,55 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1741256494753,1893,Home Page,200,OK,Regress-In Test 1-1,text,true,,8307,305,2,2,https://reqres.in/,1715,0,1294
+1741256495703,947,Home Page,200,OK,Regress-In Test 1-2,text,true,,8270,305,2,2,https://reqres.in/,764,0,343
+1741256496701,653,Home Page,200,OK,Regress-In Test 1-3,text,true,,8283,305,3,3,https://reqres.in/,472,0,62
+1741256497676,34,Get List User,200,OK,Regress-In Test 1-1,text,true,,1574,313,4,4,https://reqres.in/api/user,33,0,0
+1741256497711,31,Get List User,200,OK,Regress-In Test 1-2,text,true,,1574,313,4,4,https://reqres.in/api/user,31,0,0
+1741256497781,457,Create User,201,Created,Regress-In Test 1-2,text,true,,1121,426,4,4,https://reqres.in/api/users,457,0,0
+1741256497781,458,Create User,201,Created,Regress-In Test 1-1,text,true,,1121,426,4,4,https://reqres.in/api/users,458,0,0
+1741256497705,642,Home Page,200,OK,Regress-In Test 1-4,text,true,,8316,305,4,4,https://reqres.in/,533,0,51
+1741256498397,43,Get List User,200,OK,Regress-In Test 1-3,text,true,,1574,313,4,4,https://reqres.in/api/user,41,0,0
+1741256498240,587,Home Page,200,OK,Regress-In Test 1-1,text,true,,8324,305,5,5,https://reqres.in/,406,0,0
+1741256498240,598,Home Page,200,OK,Regress-In Test 1-2,text,true,,30891,305,5,5,https://reqres.in/,413,0,0
+1741256498442,399,Create User,201,Created,Regress-In Test 1-3,text,true,,1121,426,5,5,https://reqres.in/api/users,399,0,0
+1741256498704,668,Home Page,200,OK,Regress-In Test 1-5,text,true,,8301,305,5,5,https://reqres.in/,486,0,65
+1741256498841,579,Home Page,200,OK,Regress-In Test 1-3,text,true,,8324,305,5,5,https://reqres.in/,398,0,0
+1741256499420,33,Get List User,200,OK,Regress-In Test 1-4,text,true,,1575,313,5,5,https://reqres.in/api/user,33,0,0
+1741256499456,403,Create User,201,Created,Regress-In Test 1-4,text,true,,1118,426,5,5,https://reqres.in/api/users,402,0,0
+1741256499841,29,Get List User,200,OK,Regress-In Test 1-1,text,true,,1574,313,5,5,https://reqres.in/api/user,29,0,0
+1741256499944,35,Get List User,200,OK,Regress-In Test 1-2,text,true,,1574,313,5,5,https://reqres.in/api/user,34,0,0
+1741256499874,413,Create User,201,Created,Regress-In Test 1-1,text,true,,1112,426,5,5,https://reqres.in/api/users,413,0,0
+1741256499982,409,Create User,201,Created,Regress-In Test 1-2,text,true,,1113,426,5,5,https://reqres.in/api/users,409,0,0
+1741256499860,596,Home Page,200,OK,Regress-In Test 1-4,text,true,,8271,305,5,5,https://reqres.in/,427,0,0
+1741256500419,40,Get List User,200,OK,Regress-In Test 1-5,text,true,,1574,313,5,5,https://reqres.in/api/user,40,0,0
+1741256500479,31,Get List User,200,OK,Regress-In Test 1-3,text,true,,1574,313,5,5,https://reqres.in/api/user,30,0,0
+1741256500461,416,Create User,201,Created,Regress-In Test 1-5,text,true,,1113,426,5,5,https://reqres.in/api/users,416,0,0
+1741256500289,595,Home Page,200,OK,Regress-In Test 1-1,text,true,,8264,305,5,5,https://reqres.in/,405,0,0
+1741256500514,401,Create User,201,Created,Regress-In Test 1-3,text,true,,1112,426,5,5,https://reqres.in/api/users,401,0,0
+1741256500393,603,Home Page,200,OK,Regress-In Test 1-2,text,true,,8267,305,5,5,https://reqres.in/,410,0,0
+1741256500882,591,Home Page,200,OK,Regress-In Test 1-5,text,true,,8330,305,5,5,https://reqres.in/,426,0,0
+1741256500917,584,Home Page,200,OK,Regress-In Test 1-3,text,true,,8315,305,5,5,https://reqres.in/,399,0,0
+1741256501548,37,Get List User,200,OK,Regress-In Test 1-4,text,true,,1575,313,5,5,https://reqres.in/api/user,36,0,0
+1741256501905,30,Get List User,200,OK,Regress-In Test 1-1,text,true,,1574,313,5,5,https://reqres.in/api/user,30,0,0
+1741256501587,407,Create User,201,Created,Regress-In Test 1-4,text,true,,1113,426,5,5,https://reqres.in/api/users,407,0,0
+1741256502054,34,Get List User,200,OK,Regress-In Test 1-2,text,true,,1574,313,5,5,https://reqres.in/api/user,34,0,0
+1741256501938,402,Create User,201,Created,Regress-In Test 1-1,text,true,,1113,426,5,5,https://reqres.in/api/users,402,0,0
+1741256502091,412,Create User,201,Created,Regress-In Test 1-2,text,true,,1113,426,5,5,https://reqres.in/api/users,412,0,0
+1741256501996,600,Home Page,200,OK,Regress-In Test 1-4,text,true,,30885,305,5,5,https://reqres.in/,410,0,0
+1741256502558,63,Get List User,200,OK,Regress-In Test 1-5,text,true,,1574,313,5,5,https://reqres.in/api/user,62,0,0
+1741256502601,28,Get List User,200,OK,Regress-In Test 1-3,text,true,,1574,313,5,5,https://reqres.in/api/user,27,0,0
+1741256502341,585,Home Page,200,OK,Regress-In Test 1-1,text,true,,8274,305,5,5,https://reqres.in/,402,0,0
+1741256502623,406,Create User,201,Created,Regress-In Test 1-5,text,true,,1121,426,5,5,https://reqres.in/api/users,406,0,0
+1741256502629,435,Create User,201,Created,Regress-In Test 1-3,text,true,,1121,426,5,5,https://reqres.in/api/users,435,0,0
+1741256502505,598,Home Page,200,OK,Regress-In Test 1-2,text,true,,8307,305,5,5,https://reqres.in/,416,0,0
+1741256503031,605,Home Page,200,OK,Regress-In Test 1-5,text,true,,8275,305,5,5,https://reqres.in/,427,0,0
+1741256503065,603,Home Page,200,OK,Regress-In Test 1-3,text,true,,30885,305,5,5,https://reqres.in/,413,0,0
+1741256503655,30,Get List User,200,OK,Regress-In Test 1-4,text,true,,1574,313,4,4,https://reqres.in/api/user,30,0,0
+1741256503956,31,Get List User,200,OK,Regress-In Test 1-1,text,true,,1574,313,4,4,https://reqres.in/api/user,31,0,0
+1741256503686,399,Create User,201,Created,Regress-In Test 1-4,text,true,,1117,426,4,4,https://reqres.in/api/users,399,0,0
+1741256504160,36,Get List User,200,OK,Regress-In Test 1-2,text,true,,1574,313,4,4,https://reqres.in/api/user,35,0,0
+1741256503990,400,Create User,201,Created,Regress-In Test 1-1,text,true,,1117,426,4,4,https://reqres.in/api/users,400,0,0
+1741256504198,403,Create User,201,Created,Regress-In Test 1-2,text,true,,1117,426,4,4,https://reqres.in/api/users,403,0,0
+1741256504087,586,Home Page,200,OK,Regress-In Test 1-4,text,true,,8318,305,4,4,https://reqres.in/,407,0,0
+1741256504661,41,Get List User,200,OK,Regress-In Test 1-5,text,true,,1574,313,3,3,https://reqres.in/api/user,40,0,0
+1741256504392,601,Home Page,200,OK,Regress-In Test 1-1,text,true,,8263,305,2,2,https://reqres.in/,411,0,0
+1741256504603,598,Home Page,200,OK,Regress-In Test 1-2,text,true,,8310,305,1,1,https://reqres.in/,409,0,0
