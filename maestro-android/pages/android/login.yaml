@@ -1,0 +1,25 @@
+appId: "com.wdiodemoapp"
+---
+
+- runScript: loginElement.js
+- tapOn : ${output.login.menuLogin}
+- assertVisible : ${output.login.titleLoginSignUpForm}
+- tapOn : ${output.login.fieldEmail}
+- inputText: "test@mock.com"
+- tapOn : ${output.login.fieldPwd}
+- inputText: "1234888qq!"
+- hideKeyboard
+- assertVisible : ${output.login.descriptionLogin}
+- tapOn : ${output.login.btnLogin}
+- assertVisible : 
+    id: ${output.login.allertTitle}
+    text: "Success"
+- assertVisible : 
+    id: ${output.login.allertMessage}
+    text: "You are logged in!"
+- assertVisible : 
+    id: ${output.login.allertButton}
+    text: "OK"
+- tapOn : 
+    id: ${output.login.allertButton}
+- assertNotVisible : ${output.login.allertTitle}
