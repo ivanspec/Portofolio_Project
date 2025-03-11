@@ -4,4 +4,4 @@ appId: "com.wdiodemoapp"
 - launchApp:
       clearState: true
 
-- runFlow: pages/android/login.yaml
+- runFlow: pages/android/login/login.yaml
