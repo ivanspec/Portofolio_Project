@@ -1,0 +1,35 @@
+appId: "com.wdiodemoapp"
+---
+
+- runScript: signupElement.js
+- tapOn : ${output.signup.menuLogin}
+- assertVisible : ${output.signup.titleLoginSignUpForm}
+- tapOn: 
+    text: ${output.signup.sectionSignUp}
+    index: 0
+- tapOn : ${output.signup.fieldEmail}
+- eraseText
+- inputText: "test@email.com"
+- tapOn : ${output.signup.fieldPwd}
+- eraseText
+- inputText: "1234888qq!"
+- tapOn : ${output.signup.fieldRePwd}
+- eraseText
+- inputText: "1234888qq!"
+- hideKeyboard
+- tapOn : 
+    text: ${output.signup.btnSignUp}
+    index: 1
+- assertVisible : 
+    id: ${output.signup.allertTitle}
+    text: "Signed Up!"
+- assertVisible :
+    id: ${output.signup.allertMessage}
+    text: "You successfully signed up!"
+- assertVisible :
+    id: ${output.signup.allertButton}
+    text: "OK"
+- tapOn: 
+    id: ${output.signup.allertButton}    
+- assertNotVisible :
+    id: ${output.signup.allertTitle}

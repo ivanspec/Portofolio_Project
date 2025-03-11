@@ -5,3 +5,4 @@ appId: "com.wdiodemoapp"
       clearState: true
 
 - runFlow: pages/android/login/login.yaml
+- runFlow: pages/android/signup/signup.yaml
